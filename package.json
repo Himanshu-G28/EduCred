@@ -1,0 +1,31 @@
+{
+  "name": "design-experience-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:hardhat": "hardhat run scripts/deploy.js",
+    "deploy:amoy": "hardhat run scripts/deploy.js --network polygon_amoy",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "demo": "./start_demo.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1",
+    "dotenv": "^18.0.3"
+  }
+}
