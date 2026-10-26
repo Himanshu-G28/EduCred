@@ -17,14 +17,14 @@
 > **Institution:** SVKM's NMIMS, Mukesh Patel School of Technology Management & Engineering, Shirpur Campus  
 > **Faculty Mentor & Coordinator:** Dr. Srikanth Pullipeti, Associate Professor, Department of CSE  
 > **Primary Capstone Submission Deliverables:**
-> - [Final Project Report (NMIMS Justified Official Submission .docx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/NMIMS_DE2_Final_Report_Justified_Submission.docx)
-> - [Final Project Report (Submission Markdown)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/NMIMS_DE2_Final_Report_Justified_Submission.md)
-> - [Systematic Review Article (PRISMA 2020 / Elsevier Standard .docx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/NMIMS_DE2_Review_Article_Submission.docx)
-> - [Systematic Review Article (Markdown)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/NMIMS_DE2_Review_Article_Submission.md)
-> - [Capstone Viva Defense Master Guide & Examiner Cheat Sheet (Markdown)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/CAPSTONE_VIVA_DEFENSE_MASTER_GUIDE.md)
-> - [Capstone Viva Defense Master Guide (.docx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/CAPSTONE_VIVA_DEFENSE_MASTER_GUIDE.docx)
-> - [Defense Presentation Slides (PowerPoint .pptx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/DE2_Final_Presentation_Himanshu_Garg.pptx)
-> - [Presentation Speaker Script](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/PRESENTATION_SCRIPT.md)
+> - [Final Project Report (NMIMS Justified Official Submission .docx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/NMIMS_DE2_Final_Report_Justified_Submission.docx)
+> - [Final Project Report (Submission Markdown)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/NMIMS_DE2_Final_Report_Justified_Submission.md)
+> - [Systematic Review Article (PRISMA 2020 / Elsevier Standard .docx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/NMIMS_DE2_Review_Article_Submission.docx)
+> - [Systematic Review Article (Markdown)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/NMIMS_DE2_Review_Article_Submission.md)
+> - [Capstone Viva Defense Master Guide & Examiner Cheat Sheet (Markdown)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/CAPSTONE_VIVA_DEFENSE_MASTER_GUIDE.md)
+> - [Capstone Viva Defense Master Guide (.docx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/CAPSTONE_VIVA_DEFENSE_MASTER_GUIDE.docx)
+> - [Defense Presentation Slides (PowerPoint .pptx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/DE2_Final_Presentation_Himanshu_Garg.pptx)
+> - [Presentation Speaker Script](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/PRESENTATION_SCRIPT.md)
 
 ---
 
@@ -72,7 +72,9 @@ project/
 │   └── CredentialRegistry.sol     # Solidity 0.8.20 + OpenZeppelin v5 contract
 ├── scripts/
 │   ├── deploy.js                  # Deployment script to Hardhat / Localhost
-│   └── benchmark_gas.js           # Gas telemetry profiling script
+│   ├── generate_humanized_final_report.py   # NMIMS Final Project Report generator
+│   ├── generate_humanized_review_article.py # PRISMA 2020 Systematic Review generator
+│   └── generate_official_presentation.py    # Official Capstone Presentation generator
 ├── test/
 │   └── CredentialRegistry.test.js # 29 automated Chai test cases (100% pass)
 ├── client/
@@ -84,16 +86,31 @@ project/
 │       ├── NMIMS_Sample_GradeCard.pdf          # Authentic Grade Card (CGPA: 9.42)
 │       └── NMIMS_Sample_GradeCard_TAMPERED.pdf # Tampered Grade Card (CGPA: 9.99)
 ├── docs/
-│   ├── DE2_Final_Report_Himanshu_Garg.docx     # Official Word Report (DE-II Guidelines)
-│   ├── DE2_FINAL_PROJECT_REPORT_OFFICIAL.md    # Full Markdown Report
-│   ├── DE2_Final_Presentation_Himanshu_Garg.pptx # Official PowerPoint Presentation
-│   ├── DE2_PRESENTATION_SLIDES_OFFICIAL.md     # Full Slide Deck Text
-│   ├── PRESENTATION_SCRIPT.md                  # Viva defense speaking script & examiner Q&A
-│   └── figures/                                # High-res generated diagrams
-│       ├── fig_arch.png                        # System architecture diagram
-│       ├── fig_state_lifecycle.png             # State machine diagram
-│       ├── fig_avalanche.png                   # Strict Avalanche Criterion chart
-│       └── fig_gas_benchmarks.png              # EVM gas benchmark chart
+│   ├── final docs/                # Finalized Submission Deliverables
+│   │   ├── NMIMS_DE2_Final_Report_Justified_Submission.docx
+│   │   ├── NMIMS_DE2_Final_Report_Justified_Submission.md
+│   │   ├── NMIMS_DE2_Review_Article_Submission.docx
+│   │   ├── NMIMS_DE2_Review_Article_Submission.md
+│   │   ├── CAPSTONE_VIVA_DEFENSE_MASTER_GUIDE.docx
+│   │   ├── CAPSTONE_VIVA_DEFENSE_MASTER_GUIDE.md
+│   │   ├── DE2_Final_Presentation_Himanshu_Garg.pptx
+│   │   ├── DE2_PRESENTATION_SLIDES_OFFICIAL.md
+│   │   ├── PRESENTATION_SCRIPT.md
+│   │   └── README.md
+│   ├── figures/                   # High-res generated diagrams
+│   │   ├── fig_arch.png           # System architecture diagram
+│   │   ├── fig_state_lifecycle.png# State machine diagram
+│   │   ├── fig_avalanche.png      # Strict Avalanche Criterion chart
+│   │   └── fig_gas_benchmarks.png # EVM gas benchmark chart
+│   └── DE2_DEVELOPMENT_LOGBOOK.md # Semester V technical development logbook
+├── references/                    # Official Guidelines, Syllabus & Reference Papers
+│   ├── DE-II Final Report Guidelines.pdf
+│   ├── Reference Review article.pdf
+│   ├── Syllabus_Design Experience II_26-27_new code.pdf
+│   └── Requirements.rtf
+├── hardhat.config.js              # EVM network & compiler configuration
+├── push_to_github.sh              # Automated GitHub synchronization script
+├── start_demo.sh                  # One-click demo launcher
 └── package.json                   # Root lifecycle scripts
 ```
 

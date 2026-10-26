@@ -638,7 +638,7 @@ def main():
     add_notes(s14, "Thank you, respected evaluators. I am now ready to conduct the live prototype demonstration showing the three steps: issuing an authentic grade card, verifying it instantly with zero gas, and testing our 1-character tampered grade card to demonstrate instant Strict Avalanche forgery detection. I welcome your questions for the viva defense.")
 
     # Save presentation
-    out_pptx = "project/docs/DE2_Final_Presentation_Himanshu_Garg.pptx"
+    out_pptx = "project/docs/final docs/DE2_Final_Presentation_Himanshu_Garg.pptx"
     prs.save(out_pptx)
     print(f"Presentation generated successfully: {out_pptx}")
 
