@@ -9,7 +9,6 @@
 Department of Computer Science & Engineering  
 Mukesh Patel School of Technology Management & Engineering (MPSTME)  
 SVKM’s NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra, India  
-Email: `himanshu.garg57@nmims.edu.in`
 
 ---
 

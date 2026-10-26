@@ -178,10 +178,10 @@ def main():
     # FRONT MATTER: TEMPLATE T1 - TITLE PAGE
     # ==========================================
     p_t1_top = doc.add_paragraph()
+    p_t1_top.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p_t1_top.paragraph_format.space_before = Pt(8)
-    r_title = p_t1_top.add_run("EduCred: Blockchain-Enabled Framework for Secure Educational Credentials in India\n")
-    
-    r_title = p_t1_top.add_run("EduCred: Blockchain-Enabled Framework for Secure Educational Credentials in India\n")
+    p_t1_top.paragraph_format.space_after = Pt(12)
+    r_title = p_t1_top.add_run("EduCred: Blockchain-Enabled Framework for Secure Educational Credentials in India")
     r_title.bold = True
     r_title.font.name = 'Times New Roman'
     r_title.font.size = Pt(18)
@@ -453,7 +453,7 @@ def main():
     r_abs.bold = True
     r_abs.font.size = Pt(16)
     
-    add_body_p(doc, "The rapid proliferation of digital desktop publishing and artificial intelligence image synthesis tools has made educational certificate forgery an acute crisis for universities, recruiting corporations, and government licensing boards. Traditional academic verification methods across Indian universities rely heavily on centralized registrar databases or bilateral postal and email communications—processes that routinely incur turnaround latencies of 14 to 30 business days, inflict significant administrative overhead, and expose sensitive student records to unauthorized interception. Furthermore, emerging data sovereignty regulations, most notably India's Digital Personal Data Protection (DPDP) Act 2023, strictly penalize the unauthorized exposure and perpetual immutable storage of Personally Identifiable Information (PII) on public distributed ledgers.", bold_prefix="Context & Problem Statement: ", space_after=8)
+    add_body_p(doc, "Academic degrees, diplomas, and grade cards are the foundation of employment and higher studies in India and globally. However, the rise of modern digital desktop publishing and generative AI image tools has made certificate forgery an acute challenge for universities, recruiting corporations, and government licensing bodies. Traditional verification across Indian universities relies on centralized registrar databases or slow postal and email communications—processes that routinely take 14 to 30 business days, inflict significant administrative overhead, and expose sensitive student records to interception. Furthermore, emerging data sovereignty regulations, most notably Section 8 of India's Digital Personal Data Protection (DPDP) Act 2023, strictly penalize the unauthorized exposure and perpetual immutable storage of Personally Identifiable Information (PII) on public distributed ledgers.", bold_prefix="Context & Problem Statement: ", space_after=8)
     
     add_body_p(doc, "To resolve this trilemma of authenticity, operational latency, and privacy compliance, our project team introduces EduCred, a decentralized, production-ready framework for tamper-proof educational credential issuance and instantaneous O(1) mathematical verification. The core engineering innovation rests upon a \"Hash-on-Chain, Content-off-Chain\" dual-layer hybrid architecture. Rather than executing prohibitive raw document transactions on Ethereum virtual storage slots, the issuing browser utilizes the native W3C Web Crypto API to compute a client-side, 32-byte cryptographic SHA-256 digest of the credential. The human-readable PDF document is anchored to decentralized InterPlanetary File System (IPFS) storage, while only the 32-byte cryptographic digest, student SAP ID, and issuer authorization metadata are permanently recorded onto an Ethereum-compatible smart contract (CredentialRegistry.sol).", bold_prefix="Proposed Solution & Methodology: ", space_after=8)
     

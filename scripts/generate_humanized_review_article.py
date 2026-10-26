@@ -191,7 +191,7 @@ def main():
     p_aff.paragraph_format.space_before = Pt(0)
     p_aff.paragraph_format.space_after = Pt(14)
     p_aff.paragraph_format.line_spacing = 1.15
-    r_aff = p_aff.add_run("Department of Computer Science & Engineering\nMukesh Patel School of Technology Management & Engineering (MPSTME)\nSVKM's NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra, India\nEmail: himanshu.garg57@nmims.edu.in")
+    r_aff = p_aff.add_run("Department of Computer Science & Engineering\nMukesh Patel School of Technology Management & Engineering (MPSTME)\nSVKM's NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra, India")
     r_aff.font.name = 'Times New Roman'
     r_aff.font.size = Pt(9.5)
     r_aff.font.color.rgb = RGBColor(0, 0, 0)
@@ -540,7 +540,6 @@ def main():
 Department of Computer Science & Engineering  
 Mukesh Patel School of Technology Management & Engineering (MPSTME)  
 SVKM’s NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra, India  
-Email: `himanshu.garg57@nmims.edu.in`
 
 ---
 
