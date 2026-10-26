@@ -23,7 +23,7 @@
 > - [Systematic Review Article (Markdown)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/NMIMS_DE2_Review_Article_Submission.md)
 > - [Capstone Viva Defense Master Guide & Examiner Cheat Sheet (Markdown)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/CAPSTONE_VIVA_DEFENSE_MASTER_GUIDE.md)
 > - [Capstone Viva Defense Master Guide (.docx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/CAPSTONE_VIVA_DEFENSE_MASTER_GUIDE.docx)
-> - [Defense Presentation Slides (PowerPoint .pptx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/DE2_Final_Presentation_Himanshu_Garg.pptx)
+> - [Defense Presentation Slides (PowerPoint .pptx)](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/EduCred_DE2_Final_Presentation_Enhanced.pptx)
 > - [Presentation Speaker Script](file:///Users/himanshugarg/Desktop/NMIMS%20Material/SEM-5/Design%20Experience%202/project/docs/final%20docs/PRESENTATION_SCRIPT.md)
 
 ---
