@@ -5,14 +5,11 @@
 **Methodological Model:** Modeled on Simon Baradziej (2026), *"A systematic review of the roles of agentic AI in higher education"*, *Social Sciences & Humanities Open*, Elsevier.  
 
 ### Authors
-* **Himanshu Garg**<sup>1,*</sup> — Roll No: `E250` | SAP ID: `70552400057` (*Lead System Architect & Lead Author*)
-* **Manthan Patil**<sup>1</sup> — Roll No: `E323` | SAP ID: `70552400133` (*Web3 Frontend & Co-Author*)
-* **Vaishnavi Mali**<sup>1</sup> — Roll No: `B348` | SAP ID: `70022400767` (*QA, Validation & Co-Author*)
-* **Dr. Srikanth Pullipeti**<sup>2</sup> (*Project Mentor & Corresponding Author*)
-
-<sup>1</sup> Department of Computer Science & Engineering, Mukesh Patel School of Technology Management & Engineering (MPSTME), SVKM’s NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra 425405, India  
-<sup>2</sup> Associate Professor & Course Coordinator, Department of Computer Science & Engineering, MPSTME, SVKM’s NMIMS, Shirpur Campus, India  
-<sup>*</sup> Corresponding Author: `himanshu.garg57@nmims.edu.in`
+**Himanshu Garg, Manthan Patil, Vaishnavi Mali, and Dr. Srikanth Pullipeti**  
+Department of Computer Science & Engineering  
+Mukesh Patel School of Technology Management & Engineering (MPSTME)  
+SVKM’s NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra, India  
+Email: `himanshu.garg57@nmims.edu.in`
 
 ---
 

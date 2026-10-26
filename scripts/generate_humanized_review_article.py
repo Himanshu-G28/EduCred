@@ -178,19 +178,22 @@ def main():
 
     p_auth = doc.add_paragraph()
     p_auth.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_auth.paragraph_format.space_before = Pt(4)
     p_auth.paragraph_format.space_after = Pt(4)
-    r_auth = p_auth.add_run("Himanshu Garg 1,*, Manthan Patil 1, Vaishnavi Mali 1, and Dr. Srikanth Pullipeti 2")
+    r_auth = p_auth.add_run("Himanshu Garg, Manthan Patil, Vaishnavi Mali, and Dr. Srikanth Pullipeti")
     r_auth.bold = True
     r_auth.font.name = 'Times New Roman'
-    r_auth.font.size = Pt(11)
+    r_auth.font.size = Pt(12)
     r_auth.font.color.rgb = RGBColor(0, 0, 0)
 
     p_aff = doc.add_paragraph()
     p_aff.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_aff.paragraph_format.space_before = Pt(0)
     p_aff.paragraph_format.space_after = Pt(14)
-    r_aff = p_aff.add_run("1 Department of Computer Science & Engineering, Mukesh Patel School of Technology Management & Engineering (MPSTME),\nSVKM's NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra 425405, India\n2 Associate Professor & Course Coordinator, Department of Computer Science & Engineering, MPSTME, SVKM's NMIMS, Shirpur Campus, India\n* Corresponding Author: Himanshu Garg (Email: himanshu.garg57@nmims.edu.in | Lead System Architect)")
+    p_aff.paragraph_format.line_spacing = 1.15
+    r_aff = p_aff.add_run("Department of Computer Science & Engineering\nMukesh Patel School of Technology Management & Engineering (MPSTME)\nSVKM's NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra, India\nEmail: himanshu.garg57@nmims.edu.in")
     r_aff.font.name = 'Times New Roman'
-    r_aff.font.size = Pt(9)
+    r_aff.font.size = Pt(9.5)
     r_aff.font.color.rgb = RGBColor(0, 0, 0)
 
     # Abstract Table Callout
@@ -533,14 +536,11 @@ def main():
 **Methodological Model:** Modeled on Simon Baradziej (2026), *"A systematic review of the roles of agentic AI in higher education"*, *Social Sciences & Humanities Open*, Elsevier.  
 
 ### Authors
-* **Himanshu Garg**<sup>1,*</sup> — Roll No: `E250` | SAP ID: `70552400057` (*Lead System Architect & Lead Author*)
-* **Manthan Patil**<sup>1</sup> — Roll No: `E323` | SAP ID: `70552400133` (*Web3 Frontend & Co-Author*)
-* **Vaishnavi Mali**<sup>1</sup> — Roll No: `B348` | SAP ID: `70022400767` (*QA, Validation & Co-Author*)
-* **Dr. Srikanth Pullipeti**<sup>2</sup> (*Project Mentor & Corresponding Author*)
-
-<sup>1</sup> Department of Computer Science & Engineering, Mukesh Patel School of Technology Management & Engineering (MPSTME), SVKM’s NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra 425405, India  
-<sup>2</sup> Associate Professor & Course Coordinator, Department of Computer Science & Engineering, MPSTME, SVKM’s NMIMS, Shirpur Campus, India  
-<sup>*</sup> Corresponding Author: `himanshu.garg57@nmims.edu.in`
+**Himanshu Garg, Manthan Patil, Vaishnavi Mali, and Dr. Srikanth Pullipeti**  
+Department of Computer Science & Engineering  
+Mukesh Patel School of Technology Management & Engineering (MPSTME)  
+SVKM’s NMIMS (Deemed-to-be University), Shirpur Campus, Maharashtra, India  
+Email: `himanshu.garg57@nmims.edu.in`
 
 ---
 
